@@ -9,6 +9,26 @@
 
     <link rel="icon" href="assets/images/favicon.png" />
 
+    <!-- OPEN GRAPH CONTENT -->
+
+    <meta name="title" content="DisFlix+prime | WordPress theme creation exercise" />
+    <meta property="og:site_name" content="DisFlix+prime" />
+    <meta property="og:url" content="https://formation.melvin.studio/disflix+prime/" />
+
+    <meta property="og:type" content="website" />
+
+    <meta name="description" content="DisFlix+prime est un thème WordPress entièrement construit et intégré statique. L'objectif de cet exercice est de rendre le contenu dynamique." />
+    <meta name="keywords" content="WordPress exercise theme creation development netflix disney plus prime video streaming" />
+    <meta name="author" content="Melvin Lemoine" />
+
+    <meta property="og:image" content="https://formation.melvin.studio/disflix+prime/assets/images/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DisFlix+prime Open Graph image cover" />
+
+    <!-- END OF OPEN GRAPH CONTENT -->
+
     <link rel="stylesheet" href="assets/css/amethyst.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/all.min.css" />
@@ -17,6 +37,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/fr.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "https://stats.melvin-lemoine.me/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '22']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="https://stats.melvin-lemoine.me/matomo.php?idsite=22&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Matomo Code -->
 </head>
 
 <body class="home">
@@ -41,7 +84,7 @@
                 Créez les Custom Post Types, taxonomies, champs ACF, remplissez le site de contenu (fourni) puis rendez les templates dynamiques.
                 <br />
                 <br />
-                <i>Pour apprendre à créer un thème WordPress, vous pouvez consulter <a href="https://wordpress.melvin-lemoine.me">ce support&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>.</i>
+                <i>Pour apprendre à créer un thème WordPress, vous pouvez consulter <a href="https://wordpress.melvin-lemoine.me" target="_blank">ce support&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>.</i>
             </p>
 
             <div class="content__tags">
