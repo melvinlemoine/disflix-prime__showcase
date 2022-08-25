@@ -109,7 +109,7 @@
                 </script>
             </div>
 
-            <a class="content__button button br-normal has-icon mt-5-xs mt-3-l w-full-xs w-fit-s" href="support.pdf" target="_blank" onclick="_paq.push(['trackEvent', 'Home', 'Support', 'Download']);">
+            <a class="content__button button br-normal has-icon mt-5-xs mt-3-l w-full-xs w-fit-s" href="support.zip" target="_blank" onclick="_paq.push(['trackEvent', 'Home', 'Support', 'Download']);">
                 <span class="icon">
                     <i class="fa-solid fa-download"></i>
                 </span>
