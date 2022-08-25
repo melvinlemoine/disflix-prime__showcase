@@ -17,6 +17,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/fr.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "https://stats.melvin-lemoine.me/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '22']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="https://stats.melvin-lemoine.me/matomo.php?idsite=22&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Matomo Code -->
 </head>
 
 <body class="home">
