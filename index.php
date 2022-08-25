@@ -41,7 +41,7 @@
                 Créez les Custom Post Types, taxonomies, champs ACF, remplissez le site de contenu (fourni) puis rendez les templates dynamiques.
                 <br />
                 <br />
-                <i>Pour apprendre à créer un thème WordPress, vous pouvez consulter <a href="https://wordpress.melvin-lemoine.me">ce support&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>.</i>
+                <i>Pour apprendre à créer un thème WordPress, vous pouvez consulter <a href="https://wordpress.melvin-lemoine.me" target="_blank">ce support&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>.</i>
             </p>
 
             <div class="content__tags">
