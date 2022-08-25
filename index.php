@@ -9,6 +9,26 @@
 
     <link rel="icon" href="assets/images/favicon.png" />
 
+    <!-- OPEN GRAPH CONTENT -->
+
+    <meta name="title" content="DisFlix+prime | WordPress theme creation exercise" />
+    <meta property="og:site_name" content="DisFlix+prime" />
+    <meta property="og:url" content="https://formation.melvin.studio/disflix+prime/" />
+
+    <meta property="og:type" content="website" />
+
+    <meta name="description" content="DisFlix+prime est un thème WordPress entièrement construit et intégré statique. L'objectif de cet exercice est de rendre le contenu dynamique." />
+    <meta name="keywords" content="WordPress exercise theme creation development netflix disney plus prime video streaming" />
+    <meta name="author" content="Melvin Lemoine" />
+
+    <meta property="og:image" content="https://formation.melvin.studio/disflix+prime/assets/images/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DisFlix+prime Open Graph image cover" />
+
+    <!-- END OF OPEN GRAPH CONTENT -->
+
     <link rel="stylesheet" href="assets/css/amethyst.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/all.min.css" />
