@@ -1,0 +1,59 @@
+@keyframes slidesMoveY
+    from
+        transform: translateY(0)
+    50%
+        transform: translateY(-90%)
+    to
+        transform: translateY(0)
+@keyframes slidesMoveX
+    from
+        transform: translateX(0)
+    50%
+        transform: translateX(-90%)
+    to
+        transform: translateX(0)
+
+.slides
+    // position: absolute
+    background-color: $dark--2
+    overflow: hidden
+    min-height: fit-content
+    // top: 0
+    // right: 0
+
+    // @media screen and (min-width: 1200px)
+    //     right: -20%
+    // @media screen and (min-width: 1500px)
+    //     right: -5%
+    // @media screen and (min-width: 1800px)
+    //     right: 0
+
+    &__grid
+        display: flex
+        animation-name: slidesMoveX
+        animation-duration: 120s
+        animation-timing-function: ease-in-out
+        animation-fill-mode: forwards
+        animation-iteration-count: infinite
+        width: fit-content
+
+        @media screen and (min-width: 1024px)
+            animation-name: slidesMoveY
+            display: grid
+            grid-template-columns: 100%
+            gap: 2.5rem
+
+        @media screen and (min-width: 1200px)
+            grid-template-columns: repeat(2, 1fr)
+            animation-duration: 120s
+
+        &_slide
+            width: 25rem
+            height: 14.25rem
+            margin-right: 3rem
+
+            &:last-of-type
+                margin-right: 0
+
+            @media screen and (min-width: 1024px)
+                margin-right: 0
